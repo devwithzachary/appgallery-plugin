@@ -12,8 +12,11 @@
     <f:entry title="AppID" field="appId">
         <f:textbox />
     </f:entry>
-    <f:entry title="Suffix" field="suffix">
-        <f:textbox />
+    <f:entry name="suffix" title="Suffix" field="suffix">
+        <select name="suffix">
+            <option value="apk">APK</option>
+            <option value="aab">AAB</option>
+        </select>
     </f:entry>
     
 </j:jelly>
